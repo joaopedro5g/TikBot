@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  app:
+    image: .
+    container_name: "TikBot"
+    networks:
+      - bridge
+
+networks:
+  bridge:
